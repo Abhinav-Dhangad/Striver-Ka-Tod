@@ -12,12 +12,7 @@ bool isPalindrome(int num){
             rev=rev*10+temp%10;
             temp/=10;
         }
-        if(rev==num){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return rev==num;
     }
 }
 
