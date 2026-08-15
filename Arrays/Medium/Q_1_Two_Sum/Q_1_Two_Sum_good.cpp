@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
+//no extra space complexity but slower
 vector<int> twoSum(vector<int> &nums, int target)
 {
     for (int i = 0; i < nums.size(); i++)
