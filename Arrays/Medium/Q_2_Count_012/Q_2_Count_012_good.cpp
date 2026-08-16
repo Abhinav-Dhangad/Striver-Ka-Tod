@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
+//Higher space complexity as we are using 3 variables.
 void sortColors(vector<int>& nums) {
     int zeros = 0, ones = 0, twos = 0;
 
