@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-
+//The space complexity is lower i.e. O(1)
 using namespace std;
 
 int majorityElement(vector<int>& nums) {
