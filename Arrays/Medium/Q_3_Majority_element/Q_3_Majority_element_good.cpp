@@ -2,7 +2,7 @@
 #include<vector>
 #include<unordered_map>
 using namespace std;
-
+//The space complexity is higher i.e. O(n)
 int majorityElement(vector<int> &nums){
     unordered_map<int,int> mpp;
     for(int i=0;i<nums.size();i++){
