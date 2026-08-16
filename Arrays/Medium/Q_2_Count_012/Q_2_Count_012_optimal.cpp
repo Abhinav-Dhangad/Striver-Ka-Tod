@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
-
+//The code is faster as it only uses single pass.
 using namespace std;
 
 void sortnums(vector<int> &nums){
