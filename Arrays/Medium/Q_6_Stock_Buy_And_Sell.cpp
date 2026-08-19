@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+//very slow even leetcode wont accept it.
 int maxProfit(int cost[],int n){
     int maxprofit=0;
 
