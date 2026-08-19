@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int maxSubArray(vector<int> &nums)
+vector<int> maxSubArray(vector<int> &nums)
 {
     long long maxi = LLONG_MIN;
     long long sum = 0;
@@ -29,13 +29,7 @@ int maxSubArray(vector<int> &nums)
             sum = 0;
         }
     }
-    cout << "The subarray is: [";
-    for (int i = ansStart; i <= ansEnd; i++)
-    {
-        cout << nums[i] << " ";
-    }
-    cout << "]" << endl;
-    return maxi;
+    return {ansStart, ansEnd};
 }
 
 int main()
@@ -50,6 +44,10 @@ int main()
         cin>>arr[i];    
     }
 
-    int max_sum = maxSubArray(arr);
-    cout << "The maximum sum of the subarray is: " << max_sum << endl;
+    vector<int> max_subarray = maxSubArray(arr);
+    cout << "The maximum sum of the subarray is: " << max_subarray[1] - max_subarray[0] + 1 << endl;
+    cout<<"The subarray is : ";
+    for(int i=max_subarray[0];i<=max_subarray[1];i++){
+        cout<<arr[i]<<" ";  
+    }
 }
