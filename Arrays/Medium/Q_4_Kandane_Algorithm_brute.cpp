@@ -2,7 +2,7 @@
 #include<vector>
 
 using namespace std;
-
+//wont even get accepted in leetcode as it is too slow.
 int maxSubArray(vector<int>& nums) {
     int maxsum=0;
     for(int i=0;i<nums.size();i++){        
