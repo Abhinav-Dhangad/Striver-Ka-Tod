@@ -2,7 +2,7 @@
 #include<vector>
 
 using namespace std;
-
+//An actually good approach which can be used in numberous questions.
 int maxSubArray(vector<int>& nums){
     int maxsum=nums[0];
     int sum=nums[0];
