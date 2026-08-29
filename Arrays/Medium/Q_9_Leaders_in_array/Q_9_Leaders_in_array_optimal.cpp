@@ -2,7 +2,7 @@
 #include<vector>
 #include<climits>
 using namespace std;
-
+//A very easy approach to find if you have basic knowledge of greedy and traversal.Has a O(n) time complexity.
 vector<int> find_leaders(vector<int> nums){
     vector<int> ans;
     int max=INT_MIN;
