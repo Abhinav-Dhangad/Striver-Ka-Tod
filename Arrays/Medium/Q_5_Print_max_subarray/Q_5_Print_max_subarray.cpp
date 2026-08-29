@@ -3,6 +3,7 @@
 #include <climits>
 
 using namespace std;
+//Same approach as question 4 
 
 vector<long long> maxSubArray(vector<int> &nums)
 {
