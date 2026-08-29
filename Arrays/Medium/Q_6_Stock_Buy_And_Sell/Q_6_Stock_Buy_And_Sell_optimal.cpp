@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+//An optimal approach with time complexity O(n)
 int maxProfit(vector<int> &prices)
 {
     int min_price = prices[0];
