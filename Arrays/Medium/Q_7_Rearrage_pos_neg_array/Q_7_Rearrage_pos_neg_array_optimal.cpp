@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+//may not look like the best solution but it is. ;)
 vector<int> rearrangeArray(vector<int> &nums)
 {
     vector<int> return_nums(nums.size());
