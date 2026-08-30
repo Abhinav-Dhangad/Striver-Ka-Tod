@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-//simple if you get the logic behiund it.
+//simple if you get the logic behind it.
 void nextPermutation(vector<int> &nums)
 {
 
