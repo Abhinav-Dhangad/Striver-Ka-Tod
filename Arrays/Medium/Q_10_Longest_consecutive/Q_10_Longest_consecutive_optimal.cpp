@@ -2,7 +2,8 @@
 #include <vector>
 #include <unordered_set>
 using namespace std;
-
+// This is the optimal version of the longest consecutive subsequence problem.
+// A very tricky to find solution tho.
 int longest_consec(vector<int> &nums)
 {
     int n = nums.size();
