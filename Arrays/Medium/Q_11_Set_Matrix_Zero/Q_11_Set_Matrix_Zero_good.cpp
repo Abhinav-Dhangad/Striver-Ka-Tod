@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
-
+//If you have any prior knowledge of DSA this is the first approach that you will find yourself working on.
+//It is a very good approach which will get accepted by leetcode and will be a good submission.
+//Time complexity is O(mn). but there is a faster more complex approach.
 using namespace std;
 void setZeroes(vector<vector<int>> &matrix)
 {
