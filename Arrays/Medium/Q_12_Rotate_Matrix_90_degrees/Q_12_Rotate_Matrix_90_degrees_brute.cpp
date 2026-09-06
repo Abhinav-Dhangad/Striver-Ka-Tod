@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-
+//This approach is not that satisfying and i personally couldnt see myself writing this. (its harder to find than optimal one!)
 vector<vector<int>> rotateClockwise(vector<vector<int>> &matrix)
 {
     int n = matrix.size();
