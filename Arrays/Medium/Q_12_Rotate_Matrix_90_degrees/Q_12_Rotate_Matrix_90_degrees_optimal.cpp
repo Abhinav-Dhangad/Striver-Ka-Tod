@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-
+//A very satisfying and not so difficult to find approach if you are familiar with matrices.
 void rotate(vector<vector<int>> &matrix)
 {
     int n = matrix.size();
